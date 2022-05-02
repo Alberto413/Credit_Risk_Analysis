@@ -65,7 +65,11 @@ In addition to the sampling and classification approach, we test two ensemble cl
 * Precision: 0.99
 * Recall: 0.94
 
+### Summary:
 
+As it has been shown in the previous results, the four sampling models and the logistic regression classifier underperformed respect to the ensemble classifiers: Random Forest and Easy Ensemble, Adaboost. Especially, Adaboost is the best classifier with an overall accuracy of: 93%, and with the best recall and precision rates for the high risk class.
+
+The precision-recall tradeoff in an imbalanced classification problem is very important and challenging. Precision or recall should be prioritized depending on the kind of problem. In our case, precision should be prioritized since we need a high measure of identification of the high_risk class. And although, Adaboost has the highest precision rate, this value is very small (rate range is 0-1). The model definitely must be improved before to be recomended.
 
 
 
